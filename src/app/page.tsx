@@ -109,12 +109,13 @@ export default function HomePage() {
           transition={{ duration: 0.8, delay: 0.3 }}
           whileHover={{ scale: 1.02 }}
         >
-          <div className="absolute inset-0 bg-linear-to-tr from-cyan-500/20 via-transparent to-purple-500/20 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
+          <div className=" w-full h-125 absolute inset-0 bg-linear-to-tr from-cyan-500/20 via-transparent to-purple-500/20 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
           <Image
             src="/0.jpg"
             alt="Luxury Chiniot Furniture Sofa"
             title="Luxury Chiniot Furniture Sofa"
             fill
+            priority
             className="object-contain group-hover:scale-110 transition-all duration-700"
           />
         </motion.div>
